@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipcard</title>
+    <style>
+        .div{
+            display: flex;
+            background-color: rgb(73, 73, 194);
+           padding-left: 200px;
+           color: rgb(198, 222, 243);
+
+        }
+        .space{
+            margin-right: 10px;
+        }
+        .img{
+
+            height: 23px;
+            width: 23px;
+           padding-top: 2px;
+           border-radius: 20px;
+
+        }
+        .more{
+            margin-left:180px ;
+            
+        }
+        .last{
+          
+            margin: 5px;
+            float: end;
+        }
+        .images{
+            height: 60px;
+            width: 60px;
+            float: inline-end;
+            margin-left: 90px;
+            border-radius: 25px;
+        }
+        .second{
+            margin-top: 15px;
+            margin-left: 300px;
+        }
+        .divsec{
+            border:2px burlywood solid;
+            background-color: hsl(207, 43%, 96%);
+        }
+      
+        
+    </style>
+</head>
+<body>
+    <div class="div">
+        <!-- top section -->
+            <img id="space" class="img space" src="./Flipcard_files/logo.png" alt="not there">
+            <input type="text" class="space" placeholder="searching....." name="" id="space">
+            <input type="submit" value="log in" class="space">
+            <img class="img space" src="./Flipcard_files/cart.png" id="space" alt="">
+            <input type="submit" class="space" name="" value="cart" id="space">
+            <input class="more space" type="submit" value="More" name="" id="space">
+    </div>
+    
+    <div class="divsec">
+        <div class="second">
+            <img class="images" src="./Flipcard_files/grosary.webp" alt="">
+            <img class="images" src="./Flipcard_files/short.jpg" alt="">
+            <img class="images" src="./Flipcard_files/shoew.jpg" alt="">
+            <img class="images" src="./Flipcard_files/toys.jpg" alt="">
+            <img class="images" src="./Flipcard_files/electronic.webp" alt="">
+            <img class="images" src="./Flipcard_files/home.webp" alt="">
+            <img class="images" src="./Flipcard_files/fashion.webp" alt="">
+        </div>
+
+    </div>
+
+  
+            
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

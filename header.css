@@ -1,0 +1,36 @@
+nav {
+  background-color: rgb(238, 216, 216);
+  display: flex;
+  justify-content: center;
+}
+nav label {
+  height: 20px;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+select {
+  height: 20px;
+  text-decoration-color: black;
+  margin-top: 20px;
+}
+.fa-brands {
+  padding: 10px;
+  height: 50px;
+  width: 90px;
+}
+.fa-solid {
+  margin-top: 20px;
+}
+nav div {
+  position: relative;
+  margin-left: 60px;
+}
+div {
+  padding-top: 20px;
+}
+input {
+  height: 20px;
+
+  font-size: 15px;
+  border-radius: 20px;
+}

@@ -1,0 +1,26 @@
+.parent {
+  display: flex;
+  height: 300px;
+  border: 1px solid green;
+  align-items: end;
+  justify-content: space-evenly;
+}
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: 2px;
+}
+.child1 {
+  order: -1;
+  /* align-self: center; */
+  text-align: center;
+  text-shadow: ;
+}
+.child2 {
+  order: -1;
+}
+.child3 {
+}
+.child4 {
+}

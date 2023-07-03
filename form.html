@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="con">
+
+    <form style="background-color: rgb(227, 244, 244);">
+        <fieldset>
+            <legend><h1>Registration Form</h1></legend>
+            <!-- name -->
+            <label for="">First Name</label><sup style="color: red;">*</sup>:<br>
+            <input autocomplete="username" type="text" required pattern="^[A-Z]+[a-zA-Z]*" ><br>
+            <label for=""> Last Name:</label><br>
+            <input type="text" required><br>
+            <!-- email -->
+            <label for="">Email  </label><sup style="color: red;">*</sup><br>
+            <input type="email" required pattern="([a-z0-9.]+@[a-z]+\.[a-z]).{2,}$" title=""><br>
+            <!-- password -->
+            <label for="">Password</label> <sup style="color: red;">*</sup><br>
+            <input type="password" id="psw" pattern="(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*()_+-=]{2,}).{8,}"  required><br>
+            <!-- phone number -->
+            <label for="">Phone</label><sup style="color: red;">*</sup><br>
+            <input type="tel" name="" id="" minlength="10" maxlength="10" required><br>
+            <label for="">Age</label><br>
+            <input type="number" min="18"><br>
+            <hr>
+            <label for="">Date of birth</label>
+            <input type="date" required><br>
+            <label>Gender:</label>
+            <label>Male</label>
+            <input type="radio" required name="Gender">
+            <label>female</label>
+            <input type="radio" name="Gender">
+            <label>Others</label>
+            <input type="radio" name="Gender"> <br>
+            <label for="">State</label>
+            <select name="" id="" required>
+            <option value="" selected>selecte</option>
+             <option value="Indi">Karnataka</option>
+             <option value="">Andrapradesh</option>
+             <option value="">UttherPradesh</option>
+             <option value="">Tamilnadu</option>
+             <option value="">Kerala</option>
+            </select><br>
+           <label for="">country</label>
+           <select name="" id="" required>
+            <option value="" selected>selecte</option>
+            <option value="Indi">india</option>
+            <option value="">Nepal</option>
+            <option value="">Bangladesh</option>
+            <option value="">U.S.A</option>
+            <option value="">U.K</option>
+           </select>
+           <hr>
+           <address>
+            <label for="" >Address</label><br>
+            <input type="text" name="" id=""
+            pattern="^#+[0-9]*" required><br>
+            <!-- url  -->
+            <label for="">URL:</label><br>
+            <input type="url"  required><br>
+            <!-- pin -->
+            <label for="">Pin</label><br>
+            <input type="number" name="" id="" maxlength="6" pattern="[0-9].{6,}">
+           </address>
+           <hr>
+           <input  type="submit" required>
+            </fieldset>
+    </form>
+</div>
+</body>
+</html>

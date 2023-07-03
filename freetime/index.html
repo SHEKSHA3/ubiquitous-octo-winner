@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css" />
+    <style>
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      nav ul li {
+        display: block;
+        position: relative;
+        padding: 5px 10px;
+      }
+      nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: black;
+      }
+      nav ul ul {
+        display: none;
+        position: relative;
+      }
+      nav ul li:hover ul {
+        display: block;
+      }
+      nav ul li ul li a :hover {
+        display: block;
+        background-color: green;
+        color: black;
+      }
+      nav {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li>
+          <a href="">contact me</a>
+          <ul>
+            <li><a href="">List1</a></li>
+            <li><a href="">list2</a></li>
+            <li><a href="">list3</a></li>
+          </ul>
+        </li>
+        <li><a href="">Call me</a></li>
+        <li><a href="">about us</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

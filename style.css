@@ -1,0 +1,140 @@
+/* 
+body{
+    width: 100%;
+} */
+.top{
+
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    
+}
+.div{
+    display: flex;
+    background-color: rgb(73, 73, 194);
+   padding-left: 200px;
+   color: rgb(198, 222, 243);
+   width: 100%;
+ 
+   /* padding-bottom: 50px; */
+
+}
+.space{
+    margin-right: 10px;
+}
+.img{
+
+    height: 23px;
+    width: 23px;
+   padding-top: 2px;
+   border-radius: 20px;
+
+}
+.more{
+    margin-left:180px ;
+    
+}
+.last{
+  
+    margin: 5px;
+    float: end;
+}
+.images{
+    height: 60px;
+    width: 60px;
+    float: inline-end;
+    margin-left: 90px;
+    border-radius: 50%;
+}
+.second{
+    margin-top: 15px;
+    margin-left: 300px;
+    display: flex;
+
+}
+.divsec{
+    border:2px burlywood solid;
+    background-color: hsl(207, 43%, 96%);
+    margin-top: 30px;
+}
+.add{
+    height: 100px;
+    width: 500px;
+    margin-left:20px
+}
+.adds{
+    background-color: rgb(213, 213, 218);
+    align-items: center;
+}
+#movingleft{
+    height: 50px;
+    margin-left: 100px;
+ 
+    margin-bottom: 60px;
+
+
+}
+
+.foot{
+    align-items: end;
+}
+.separating{
+    margin-left: 100px;
+    float: last;
+}
+.lastsection{
+    display: flex;
+    padding-left: 30px;
+}
+.lastsectionspacing{
+margin-left: 60px;
+}
+
+.log{
+    margin-top:10px;
+}
+.searching{
+    height: 100pxpx;
+    width: 250px,  !important; ;
+    padding-left: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+h3:only-child{
+    margin-left: 30px;
+}
+.topimage{
+    margin-top: 20px;
+    float: right,!important;
+    justify-content: end;
+    background-color: blue;
+    margin-left: 900px;
+}
+.row-1{
+    margin-top: 15px;
+   
+    padding-left: 55px;
+    display: flex;
+
+
+}
+.r{
+    margin-top: 10px;
+    border: 1px solid rgb(240, 221, 186);
+}
+.row1-images{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+    
+}
+.row1space{
+   padding-left: 80px; 
+}
+.row2{
+    color: brown;
+}
+.footer{
+    background-color: rgb(109, 220, 220);
+}

@@ -1,0 +1,8 @@
+{
+  "html.format.templating": false,
+  "editor.wordWrap": "on",
+  "diffEditor.wordWrap": "on",
+  "editor.defaultFormatter": "svipas.prettier-plus",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange"
+}

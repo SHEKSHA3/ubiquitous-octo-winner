@@ -1,0 +1,29 @@
+.parent {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #081016;
+  padding: 10px;
+}
+.child {
+  background-color: rgba(236, 55, 55, 0.8);
+  border: 1px solid rgba(54, 24, 24, 0.8);
+  padding: 20px;
+  margin: 2px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 30px;
+}
+.screen {
+  height: 200px;
+  width: auto;
+  justify-content: center;
+}
+.container {
+  border: 5px solid black;
+  border-radius: 20px;
+  width: max-content;
+}
+span {
+  font-size: 50px;
+  text-transform: capitalize;
+}
